@@ -13,7 +13,7 @@
   justify-content: center;
   color: white;
   margin-left: 10px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .Header_text h1{
@@ -24,6 +24,7 @@
     width: 100%;
     margin-top: 20px;
     display: flex;
+    
 }
 
 .hireGuide{
@@ -31,6 +32,7 @@ width: 90px;
 height: 25px;
 background-color: white;
 color: black;
+cursor: pointer;
 }
 
 .language{
@@ -39,6 +41,7 @@ height: 25px;
 background-color: rgb(0, 0, 0);
 color: rgb(249, 249, 249);
 margin-left: 15px;
+cursor: pointer;
 }
 
 .Header_image{
@@ -56,9 +59,9 @@ margin-left: 15px;
     margin-right: 30px;
 }
 
-@media only screen and (max-width:353px){
+@media only screen and (max-width:380px){
    .Header_image{
-     transform: scale(0.6);
+     transform: scale(0.9);
     margin-top: 0px;
    }
    .Header_text p{
@@ -82,21 +85,25 @@ margin-left: 15px;
         margin-right: 20px;
     }
     .Header_text{
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 
-@media only screen and (max-width:417px){
+@media only screen and (max-width:460px){
     .Header_image img{
-        width: 150px;
-        height:150px;
+        width: 170px;
+        height:170px;
         border-radius: 50%;
         margin-bottom: 20px;
         margin-left: auto;
         margin-right: 20px;
     }
     .Header_text{
-        font-size: 10px;
+        font-size: 12px;
+    }
+    .Header_text p{
+        width: 95%;
+        font-family: sans-serif;
     }
     .hireGuide{
         width: 80px;
@@ -112,7 +119,7 @@ margin-left: 15px;
 .Header_text{
     width: 45%;
     margin-left: 5%;
-    font-size: 15px;
+    font-size: 20px;
 }
 .hireGuide{
     width: 100px;
@@ -234,7 +241,7 @@ margin-left: 15px;
     margin-bottom: 50px;
     }
     .Header_text p{
-        font-size: 23px;
+        font-size: 24px;
         margin-bottom: 20px;
         width: 65%;
         color: rgb(235, 235, 235);
@@ -244,7 +251,7 @@ margin-left: 15px;
     }
 
     .Header_text h1{
-        font-size: 57px;
+        font-size: 60px;
         margin-bottom: 40px;
         color: rgb(255, 255, 255);
     }
