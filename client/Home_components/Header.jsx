@@ -12,7 +12,7 @@ export default function Header(){
             </div>
 </div>
 <div className="Header_image">
-  <img src="https://res.cloudinary.com/dldonwgcr/image/upload/v1687689946/gremigremis-monasteri-gremi-monastery-monastyr-gremi-2_mzjazs.jpg" />
+    <img src="https://res.cloudinary.com/dldonwgcr/image/upload/v1687689946/gremigremis-monasteri-gremi-monastery-monastyr-gremi-2_mzjazs.jpg" />
   </div>
    
      
