@@ -30,8 +30,8 @@ font-family: 'Laila', sans-serif;
 }
 
 .hireGuide{
-width: 95px;
-height: 28px;
+width: 105px;
+height: 34px;
 background:linear-gradient(to right,rgb(255, 255, 255),rgb(244, 244, 244));
 box-shadow: 1px 1px 8px rgb(19, 19, 19);
 border-radius: 5px;
@@ -41,8 +41,8 @@ cursor: pointer;
 }
 
 .language{
-    width: 95px;
-height: 28px;
+    width: 105px;
+height: 34px;
 background:linear-gradient(to right,rgb(29, 29, 29),rgb(13, 13, 13));
 box-shadow: 1px 1px 8px black;
 border-radius: 5px;
@@ -82,7 +82,9 @@ transition: 0.3s all;
    .Header_image{
      transform: scale(0.9);
     margin-top: 0px;
-
+   }
+   .Header_image img{
+    margin-right: 20px;
    }
    .Header_text p{
    width:100%;
@@ -119,6 +121,9 @@ transition: 0.3s all;
     .Header_text{
         font-size: 16px;
     }
+    .language_button{
+        margin-top: 15px;
+    }
     .language{
         width: 98px;
         height: 36px;
@@ -126,6 +131,9 @@ transition: 0.3s all;
     .hireGuide{
         width: 98px;
         height: 36px;
+    }
+    .Header_main_div{
+        height: 250px;
     }
 }
 
@@ -136,7 +144,7 @@ transition: 0.3s all;
         border-radius: 50%;
         margin-bottom: 20px;
         margin-left: auto;
-        margin-right: 50px;
+        margin-right: 10px;
     }
     .Header_text{
         font-size: 12px;
@@ -164,11 +172,13 @@ transition: 0.3s all;
     margin-left: 5%;
     font-size: 20px;
 }
+.language_button{
+    margin-top: 20px;
+}
 .hireGuide{
     width: 115px;
     height: 34px;
     font-size:16px;
-
 }
 .language{
     width: 115px;
@@ -211,6 +221,7 @@ transition: 0.3s all;
   .Header_main_div{
     height: 500px;
 }
+
 }
 
 @media only screen and (min-width:900px){
