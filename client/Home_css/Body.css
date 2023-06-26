@@ -210,31 +210,29 @@ width: 90%;
     height:500px;
 }
 
-    .Body_main_div div img{
+.Body_main_div div img{
        max-width: 600px;
-        width: 400px;
+        width: 480px;
         height:340px;
-    }
+}
     .About_div {
         margin-top: 40px;
     }
     .Body_main_div div p{
         max-width: 600px;
-        font-size: 19px;
-        width: 400px;
+        font-size: 20px;
+        width: 480px;
     }
     .Body_main_div div{
         height: 420px;
-        margin-top: 45px;
+        margin-top: 60px;
     }
     .interier_div img{
         margin-right: 30px;
     }
     .boulvarMuseum_div img{
-        margin-right: 40px;
+        margin-right: 0px;
     }
-
-   
 
 }
 
@@ -245,8 +243,8 @@ width: 90%;
     }
     
         .Body_main_div div img{
-            width: 500px;
-            height:400px;
+            width: 580px;
+            height:430px;
         }
         .About_div {
             margin-top: 40px;
@@ -255,18 +253,73 @@ width: 90%;
             margin-right: 40px;
         }
         .boulvarMuseum_div img{
-            margin-right: 90px;
+            margin-right: 0px;
         }
         .Body_main_div div p{
-            width: 500px;
+            width: 580px;
             font-size: 23px;
         }
         .Body_main_div div{
             height: 420px;
-            margin-top: 120px;
+            margin-top: 150px;
         }
         .Body_main_div div img{
             margin-left: 30px;
         }
     
+    }
+
+    @media only screen and (min-width:1900px){
+        .Body_main_div div img{
+            width: 650px;
+            height: 460px;
+        }
+        .Body_main_div div p{
+            width: 650px;
+        }
+        .Body_main_div div{
+            margin-top: 180px;
+        }
+    }
+
+    @media only screen and (min-width:2000px){
+        .Body_main_div div img{
+            max-width: 800px;
+            width:750px;
+            height: 530px;
+        }
+        .Body_main_div div p{
+            max-width: 800px;
+            width: 750px;
+            font-size: 28px;
+        }
+        .Body_main_div div{
+            margin-top: 290px;
+        }
+    }
+
+
+    @media only screen and (min-width:2300px){
+        .Body_main_div div img{
+            max-width: 900px;
+            width:850px;
+            height: 580px;
+        }
+        .Body_main_div div p{
+            max-width: 900px;
+            width: 850px;
+            font-size: 30px;
+        }
+        .Body_main_div div{
+            margin-top: 340px;
+        }
+        .boulvarMuseum_div img{
+            margin-top: 0px;
+        }
+    }
+
+    @media only screen and (min-width:2800px){
+        .Body_main_div div{
+            margin-top: 470px;
+        }
     }
