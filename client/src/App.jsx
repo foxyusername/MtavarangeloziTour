@@ -5,7 +5,6 @@ import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
 const Home = lazy(() => import('../big_components/Home'));
 
-
 function App() {
   return <Router>
     <Suspense fallback={<h1>loading...</h1>}>
