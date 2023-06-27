@@ -1,0 +1,50 @@
+.Contact_main_div{
+    width: 100%;
+    height: 130px;
+    background: linear-gradient(126deg, #000C76 0.61%, rgba(0, 12, 119, 0.98) 27.92%, rgba(1, 16, 151, 0.91) 75.88%, rgba(2, 17, 152, 0.91) 77.89%, #010529 100%);
+
+ margin-top: 100px;
+ display: flex;
+ flex-direction: column;
+}
+
+.Contact_info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    padding-top:21px;
+}
+
+.Contact_info h2{
+    font-size: 18px;
+    color: white;
+    margin-left: 18px;
+    font-family: Encode Sans Condensed;
+}
+
+
+.Contact_icons{
+display: flex;
+flex-direction: row;
+height: 90%;
+justify-content:end;
+font-size: 35px;
+align-items: flex-end;
+}
+
+.Icons_div{
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.Icons_div img{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50%;
+}
