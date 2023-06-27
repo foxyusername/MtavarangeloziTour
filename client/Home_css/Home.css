@@ -7,6 +7,12 @@
     width: 100vw;
 }
 
+@media only screen and (max-width:340px){
+    .Home_main_div{
+  width: 110vw;
+    }
+}
+
 @media only screen and (min-width:1100px){
     .Home_main_div{
         width: calc(100vw - (100vw - 100%));
