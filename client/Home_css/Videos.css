@@ -1,18 +1,28 @@
+body{
+    background-color: whitesmoke;
+}
+
 .Videos_main_div{
     width: 100%;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-   height: 750px;
+    background-color: whitesmoke;
+    border-top: 3px solid black;
+    margin-top: 20px;
 }
 .Videos_header{
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
 }
 
 .Videos_header h1{
-    font-size: 80px;  
+    font-size: 60px;  
+    width: 250px;
     background: linear-gradient(to right,rgb(250, 92, 92), rgb(0, 34, 255));
     -webkit-background-clip: text;
     background-clip: text;
@@ -31,9 +41,9 @@
 }
 
 .Videos_main_div div h2{
-    width: 232px;
+    width: 250px;
     text-align: center;
-    font-size: 27px;
+    font-size: 19px;
     color: #575757;
     font-family: Encode Sans Condensed;
     line-height: 35px;
@@ -44,29 +54,44 @@ iframe{
     height: 260px;
 }
 
+.Videos_div div.first_video{
+    margin-top:55px;
+}
+
 @media only screen and (max-width:400px){
     .Videos_header h1{
-        font-size: 60px;
-        border: 1px solid red;
+        font-size: 56px;
+        width: 230px;
+    }
+    .Videos_header{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
     }
     .Videos_main_div div h2{
-        font-size: 25px;
+        font-size: 16px;
+        width: 200px;
     }
     iframe{
         width: 240px;
     height: 200px;
     }
+    .Videos_div div{
+        margin-top: 60px;
+    }
 }
 
 @media only screen and (min-width:500px){
     .Videos_header h1{
-        font-size: 80px;
+        font-size: 63px;
     }
     .Videos_main_div div h2{
-        font-size: 27px;
+        font-size: 19px;
+        width: 260px;
     }
-    .Videos_main_div div {
+    .Videos_div div {
         gap: 33px;
+        margin-top: 80px;
     }
     iframe{
         width: 310px;
@@ -77,10 +102,11 @@ iframe{
 
 @media only screen and (min-width:700px){
     .Videos_header h1{
-        font-size: 80px;
+        font-size: 71px;
+        width: 350px;
     }
     .Videos_main_div div h2{
-        font-size: 28px;
+        font-size: 21px;
     }
     .Videos_main_div div {
         gap: 33px;
@@ -99,7 +125,7 @@ iframe{
     }
 
     .Videos_main_div div h2{
-        font-size: 29px;
+        font-size: 24px;
       width: 330px;
     }
 
@@ -132,7 +158,7 @@ iframe{
         height: 200px;
     }
    .Videos_div div.third_video h2{
-    width: 250px;
+    width: 230px;
    }
 }
 
@@ -140,6 +166,11 @@ iframe{
     iframe{
         width: 330px;
         height: 230px;
+    }
+
+    .Videos_header h1{
+        width: 600px;
+        font-size: 70px;
     }
 }
 

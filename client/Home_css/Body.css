@@ -50,7 +50,7 @@ width: 90%;
         height: 220px;
     }
   .Body_main_div div p{
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -59,13 +59,14 @@ width: 90%;
         height: 310px;
     }
     .Body_main_div div p{
-        font-size: 15px;
+        font-size: 17px;
+        text-align: center;
     }
 }
 
 @media only screen and (min-width:700px){
     .Body_main_div div p{
-      font-size:18px;
+      font-size:19px;
       width: 98%;
       margin-top: 32px;
     }
@@ -151,7 +152,7 @@ width: 90%;
 }
 @media only screen and (min-width:900px){
     .Body_main_div div p{
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
@@ -226,7 +227,7 @@ width: 90%;
     }
     .Body_main_div div{
         height: 420px;
-        margin-top: 60px;
+        margin-top:45px;
     }
     .interier_div img{
         margin-right: 30px;
