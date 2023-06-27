@@ -2,10 +2,9 @@
     width: 100%;
     height: 130px;
     background: linear-gradient(126deg, #000C76 0.61%, rgba(0, 12, 119, 0.98) 27.92%, rgba(1, 16, 151, 0.91) 75.88%, rgba(2, 17, 152, 0.91) 77.89%, #010529 100%);
-
  margin-top: 100px;
  display: flex;
- flex-direction: column;
+  flex-direction:column;
 }
 
 .Contact_info{
@@ -16,20 +15,38 @@
     padding-top:21px;
 }
 
+.Contact_header{
+    display: none;
+}
+
 .Contact_info h2{
-    font-size: 18px;
+    font-size: 15px;
     color: white;
     margin-left: 18px;
+    margin-top: 10px;
     font-family: Encode Sans Condensed;
 }
 
+.Info_icons{
+    display: flex;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 1350px;
+  width: 98%;
+}
+
+.info_icons_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 .Contact_icons{
 display: flex;
 flex-direction: row;
-height: 90%;
+height: 100%;
 justify-content:end;
-font-size: 35px;
 align-items: flex-end;
 }
 
@@ -38,7 +55,7 @@ align-items: flex-end;
     width: 140px;
     justify-content: space-between;
     align-items: center;
-    margin-right: 5px;
+    margin-right: 20px;
   margin-bottom: 5px;
 }
 
@@ -48,3 +65,148 @@ align-items: flex-end;
     background: transparent;
     border-radius: 50%;
 }
+
+
+@media only screen and (min-width:562px){
+    .Contact_main_div{
+        flex-direction: column;
+    }
+    .Contact_info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 0px;
+    }
+    .Contact_info h2{
+        font-size: 20px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .Contact_icons{
+        flex-direction: column;
+        width: 50%;
+        margin-bottom: 0px;
+        height: 100%;
+    }
+    .Contact_icons img{
+        width: 50px;
+        height: 50px;
+    }
+    .Icons_div{
+        width: 180px;
+      margin-bottom: 5px;
+      margin-right: 20px;
+    }
+}
+
+
+
+@media only screen and (min-width:730px){
+    .Contact_main_div{
+        flex-direction: column;
+        height: 180px;
+    }
+
+   .Contact_header{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'langar','serif';
+    color: rgb(224, 224, 224);
+   }
+    .Info_icons{
+        display: flex;
+        height: auto;
+    }
+    .Icons_div{
+        margin-bottom: 0px;
+        margin-right: 60px;
+        width: 180px;
+    }
+    .Contact_icons{
+        justify-content: center;
+    }
+    .Contact_info{
+    justify-content: center;  
+}
+    .Contact_info h2{
+        margin-top: 15px;
+    font-family:sans-serif;
+    color: #FFF;
+font-size: 18px;
+font-family: 'langar','serif';
+}
+}
+
+@media only screen and (min-width:1100px){
+    .Contact_info h2{
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .Contact_icons img{
+        width: 60px;
+        height:60px;
+    }
+    .Icons_div{
+        width: 210px;
+    }
+} 
+
+@media only screen and (min-width:1400px){
+    .Contact_info h2{
+        font-size: 23px;
+        margin-left: 0px;
+    }
+    .Contact_icons img{
+        width: 65px;
+        height:65px;
+    }
+    .Icons_div{
+        width: 240px;
+        margin-right: 80px;
+    }
+    .Contact_main_div{
+        height: 180px;
+    }
+} 
+
+@media only screen and (min-width:2000px){
+  .Contact_header{
+    font-size: 70px;
+  }
+  .Contact_main_div{
+    height: 220px;
+  }
+  .Contact_info h2{
+   font-size: 28px;
+  }
+  .Contact_icons img{
+    width: 75px;
+    height: 75px;
+  }
+  .Icons_div{
+    width: 280px;
+  }
+}
+
+
+@media only screen and (min-width:2300px){
+    .Contact_header{
+      font-size: 80px;
+    }
+    .Contact_main_div{
+      height: 240px;
+    }
+    .Contact_info h2{
+     font-size: 30px;
+    }
+    .Contact_icons img{
+      width: 80px;
+      height: 80px;
+    }
+    .Icons_div{
+      width: 290px;
+    }
+  }
