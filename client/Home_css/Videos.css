@@ -36,8 +36,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 55px;
-    gap: 23px;
+    margin-top: 57px;
+    gap: 24px;
 }
 
 .Videos_main_div div h2{
@@ -154,7 +154,7 @@ iframe{
     }
 
   .Videos_div div.third_video h2{
-  width: 230px;  
+  width: 0px;  
 }
 
     iframe{
