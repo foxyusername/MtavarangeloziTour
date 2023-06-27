@@ -78,8 +78,8 @@ align-items: flex-end;
 
 @media only screen and (max-width:330px){
     .Contact_info h2{
-        font-size: 15px;
-        margin-left: 5px;
+        font-size: 14px;
+        margin-left: 3px;
     }
     .Contact_icons img{
         width: 36px;
