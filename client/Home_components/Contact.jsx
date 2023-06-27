@@ -15,9 +15,9 @@ export default function Contact(){
      </div>
      <div className="Contact_icons">
    <div className="Icons_div">
-   <img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" />
-   <img src="https://cdn.freebiesupply.com/logos/large/2x/facebook-3-logo-png-transparent.png"/>
-   <img src="https://cdn.freebiesupply.com/logos/large/2x/twitter-3-logo-png-transparent.png"/>
+   <a href="https://www.instagram.com/nika_jamaspishvili/"><img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" /></a>
+  <a href="https://www.facebook.com/profile.php?id=100013425753100" ><img src="https://cdn.freebiesupply.com/logos/large/2x/facebook-3-logo-png-transparent.png"/></a>
+   <a href="https://twitter.com/NikaJama123"><img src="https://cdn.freebiesupply.com/logos/large/2x/twitter-3-logo-png-transparent.png"/></a>
     </div>
      </div>
      </div>
