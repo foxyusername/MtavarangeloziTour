@@ -66,7 +66,7 @@ iframe{
     .Videos_header{
         display: flex;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 45px;
     }
     .Videos_main_div div h2{
         font-size: 16px;
@@ -95,7 +95,7 @@ iframe{
     }
     .Videos_div div {
         gap: 25px;
-        margin-top: 45px;
+        margin-top: 55px;
     }
     iframe{
         width: 310px;
@@ -117,7 +117,7 @@ iframe{
     }
     .Videos_main_div div {
         gap: 33px;
-        margin-top: 55px;
+        margin-top: 65px;
     }
     iframe{
         width: 380px;
