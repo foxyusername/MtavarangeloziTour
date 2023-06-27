@@ -66,7 +66,15 @@ align-items: flex-end;
 }
 @media only screen and (max-width:330px){
     .Contact_info h2{
-        font-size: 13px;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .Contact_icons img{
+        width: 36px;
+        height: 36px;
+    }
+    .Icons_div{
+        width: 130px;
     }
 }
 
