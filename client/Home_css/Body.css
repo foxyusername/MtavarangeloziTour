@@ -208,11 +208,12 @@ width: 90%;
 
 .Body_main_div div {
     height:500px;
+    gap: 15px;
 }
 
 .Body_main_div div img{
        max-width: 600px;
-        width: 480px;
+        width: 440px;
         height:340px;
 }
     .About_div {
@@ -220,8 +221,8 @@ width: 90%;
     }
     .Body_main_div div p{
         max-width: 600px;
-        font-size: 20px;
-        width: 480px;
+        font-size: 19px;
+        width: 440px;
     }
     .Body_main_div div{
         height: 420px;
@@ -240,11 +241,12 @@ width: 90%;
     
     .Body_main_div div {
         height:600px;
+        gap: 25px;
     }
     
         .Body_main_div div img{
-            width: 580px;
-            height:430px;
+            width: 500px;
+            height:400px;
         }
         .About_div {
             margin-top: 40px;
@@ -256,12 +258,12 @@ width: 90%;
             margin-right: 0px;
         }
         .Body_main_div div p{
-            width: 580px;
-            font-size: 23px;
+            width: 500px;
+            font-size: 21px;
         }
         .Body_main_div div{
             height: 420px;
-            margin-top: 150px;
+            margin-top: 120px;
         }
         .Body_main_div div img{
             margin-left: 30px;
@@ -276,6 +278,7 @@ width: 90%;
         }
         .Body_main_div div p{
             width: 650px;
+            font-size: 22px;
         }
         .Body_main_div div{
             margin-top: 180px;
@@ -283,15 +286,18 @@ width: 90%;
     }
 
     @media only screen and (min-width:2000px){
+        .Body_main_div div{
+            gap: 30px;
+        }
         .Body_main_div div img{
             max-width: 800px;
-            width:750px;
-            height: 530px;
+            width:700px;
+            height: 510px;
         }
         .Body_main_div div p{
             max-width: 800px;
-            width: 750px;
-            font-size: 28px;
+            width: 700px;
+            font-size: 27px;
         }
         .Body_main_div div{
             margin-top:295px;
@@ -302,16 +308,17 @@ width: 90%;
     @media only screen and (min-width:2300px){
         .Body_main_div div img{
             max-width: 900px;
-            width:850px;
+            width:800px;
             height: 580px;
         }
         .Body_main_div div p{
             max-width: 900px;
-            width: 850px;
+            width: 800px;
             font-size: 30px;
         }
         .Body_main_div div{
-            margin-top: 365px;
+            margin-top: 380px;
+          gap: 45px;
         }
         .boulvarMuseum_div img{
             margin-top: 0px;
@@ -320,6 +327,6 @@ width: 90%;
 
     @media only screen and (min-width:2800px){
         .Body_main_div div{
-            margin-top: 470px;
+            margin-top: 420px;
         }
     }
