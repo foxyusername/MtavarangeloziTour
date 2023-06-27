@@ -122,6 +122,9 @@ iframe{
     .Videos_main_div div h2{
         font-size: 21px;
     }
+    .Videos_div div{
+    margin-top: 70px;
+    }
     .Videos_main_div div {
         gap: 33px;
         margin-top: 70px;
