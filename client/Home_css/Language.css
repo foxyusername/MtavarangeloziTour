@@ -68,11 +68,11 @@ gap: 35px;
 
 @media only screen and (max-width:399px){
   .Language_main_div {
-    width: 70%;
-    height: 280px;
+    width: 72%;
+    height: 230px;
   }
   #exit_btn{
-    font-size:35px;
+    font-size:30px;
     right: 20px;
   }
   #exit_btn:hover{
@@ -86,7 +86,7 @@ gap: 35px;
     font-size: 30px;
   }
   .Language_main_div div{
-    width: 150px;
+    width: 155px;
   }
   .Language_main_div div.second_div{
    width: 135px;
