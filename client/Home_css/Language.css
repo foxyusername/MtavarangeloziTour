@@ -1,7 +1,7 @@
 .Language_main_div{
     width: 40%;
     height: 50vh;
-   background:linear-gradient(to right,rgb(138, 138, 255),rgb(252, 153, 153));
+   background:linear-gradient(to right,rgb(29, 29, 29),rgb(2, 0, 63));
     position:fixed;
     top: 50%;
     left: 50%;
@@ -28,7 +28,7 @@
     top:10px;
     font-size:45px;
     right: 40px;
-    color: rgb(33, 33, 33);
+    color: rgb(221, 221, 221);
     transform: none;
 }
 
@@ -66,17 +66,21 @@ flex-direction: column;
 gap: 35px;
 }
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:399px){
   .Language_main_div {
     width: 70%;
-    height: 40vh;
+    height: 280px;
   }
   #exit_btn{
     font-size:35px;
     right: 20px;
   }
+  #exit_btn:hover{
+    color: black;
+  }
   .Language_main_div h1{
     font-size: 30px;
+    transform: none;
   }
   .Language_main_div h2{
     font-size: 30px;
@@ -92,3 +96,147 @@ gap: 35px;
     gap:30px;
   }
 }
+
+
+@media only screen and (min-width:400px){
+    .Language_main_div {
+      width: 70%;
+      height: 310px;
+    }
+    #exit_btn{
+      font-size:35px;
+      right: 20px;
+    }
+    #exit_btn:hover{
+      color: rgb(233, 233, 233);
+    }
+    .Language_main_div h1{
+      font-size: 35px;
+      transform: none;
+    }
+    .Language_main_div h2{
+      font-size: 33px;
+    }
+    .Language_main_div div{
+      width: 180px;
+    }
+    .Language_main_div div.second_div{
+     width: 160px;
+    }
+   
+    .Language_main_div section{
+      gap:30px;
+    }
+  }
+
+  @media only screen and (min-width:520px){
+    .Language_main_div{
+        height: 400px;
+    }
+  }
+
+  @media only screen and (min-width:600px){
+    .Language_main_div {
+        height:400px;
+        max-width: 500px;
+    }
+    .Language_main_div h1{
+        font-size: 40px;
+    }
+    .Language_main_div div{
+        width: 190px;
+}
+.Language_main_div div.second_div{
+    width: 175px;
+}
+.Language_main_div section{
+    gap: 40px;
+}
+  }
+
+  @media only screen and (min-width:1200px){
+    .Language_main_div{
+        max-width: 600px;
+        height:450px;
+    }
+    .Language_main_div h1{
+        font-size: 45px;
+    }
+ .Language_main_div h2{
+    font-size: 40px;
+ }
+    .Language_main_div div{
+        width: 220px;
+}
+.Language_main_div div.second_div{
+    width: 195px;
+}
+.Language_main_div section{
+    gap: 35px;
+}
+  }
+
+@media only screen and (min-width:1600px){
+    .Language_main_div{
+      max-width: 750px;
+      height: 50vh;
+    }
+    #exit_btn{
+        font-size: 60px;
+        right: 30px;
+        top: 20px;
+    }
+    .Language_main_div section{
+     gap: 55px;
+    }
+    .Language_main_div h1{
+        font-size: 60px;
+    }
+    .Language_main_div h2{
+        font-size: 50px;
+     }
+        .Language_main_div div{
+            width: 290px;
+    }
+    .Language_main_div div.second_div{
+        width: 255px;
+    }
+    .Language_main_div section{
+        gap: 50px;
+    }
+}
+
+  @media only screen and (min-width:2000px){
+    .Language_main_div{
+        max-width: 800px;
+    }
+
+    .Language_main_div h1{
+        font-size: 60px;
+    }
+ .Language_main_div h2{
+    font-size: 55px;
+ }
+    .Language_main_div div{
+        width: 295px;
+}
+.Language_main_div div.second_div{
+    width: 265px;
+}
+.Language_main_div section{
+    gap: 35px;
+}
+#exit_btn{
+    font-size: 60px;
+}
+  }
+
+  @media only screen and (min-width:2500px){
+    .Language_main_div{
+        max-width: 860px;
+        height: 45vh;
+    }
+    .Language_main_div section{
+        gap: 60px;
+    }
+  }
