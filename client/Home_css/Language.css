@@ -97,11 +97,17 @@ gap: 35px;
   }
 }
 
+@media only screen and (max-height:600px){
+    .Language_main_div{
+        height: 200px;
+        width: 300px;
+    }
+}
 
 @media only screen and (min-width:400px){
     .Language_main_div {
-      width: 70%;
-      height: 310px;
+      width: 75%;
+      height: 290px;
     }
     #exit_btn{
       font-size:35px;
@@ -131,7 +137,8 @@ gap: 35px;
 
   @media only screen and (min-width:520px){
     .Language_main_div{
-        height: 400px;
+        height: 310px;
+        width: 70%;
     }
   }
 
@@ -156,8 +163,8 @@ gap: 35px;
 
   @media only screen and (min-width:1200px){
     .Language_main_div{
-        max-width: 600px;
-        height:450px;
+        max-width: 550px;
+        height:410px;
     }
     .Language_main_div h1{
         font-size: 45px;
@@ -172,14 +179,14 @@ gap: 35px;
     width: 195px;
 }
 .Language_main_div section{
-    gap: 35px;
+    gap: 45px;
 }
   }
 
 @media only screen and (min-width:1600px){
     .Language_main_div{
-      max-width: 750px;
-      height: 50vh;
+      max-width: 710px;
+      height: 41vh;
     }
     #exit_btn{
         font-size: 60px;
