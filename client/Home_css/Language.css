@@ -185,8 +185,8 @@ gap: 35px;
 
 @media only screen and (min-width:1600px){
     .Language_main_div{
-      max-width: 710px;
-      height: 41vh;
+      max-width: 600px;
+      height: 440px;
     }
     #exit_btn{
         font-size: 60px;
@@ -194,28 +194,29 @@ gap: 35px;
         top: 20px;
     }
     .Language_main_div section{
-     gap: 55px;
+     gap: 60px;
     }
     .Language_main_div h1{
-        font-size: 60px;
+        font-size: 50px;
     }
     .Language_main_div h2{
-        font-size: 50px;
+        font-size: 45px;
      }
         .Language_main_div div{
-            width: 290px;
+            width: 250px;
     }
     .Language_main_div div.second_div{
-        width: 255px;
+        width: 225px;
     }
     .Language_main_div section{
-        gap: 50px;
+        gap: 60px;
     }
 }
 
   @media only screen and (min-width:2000px){
     .Language_main_div{
-        max-width: 800px;
+        max-width: 730px;
+      height: 550px;
     }
 
     .Language_main_div h1{
@@ -231,7 +232,7 @@ gap: 35px;
     width: 265px;
 }
 .Language_main_div section{
-    gap: 35px;
+    gap: 60px;
 }
 #exit_btn{
     font-size: 60px;
@@ -241,9 +242,21 @@ gap: 35px;
   @media only screen and (min-width:2500px){
     .Language_main_div{
         max-width: 860px;
-        height: 45vh;
+        height: 47vh;
     }
     .Language_main_div section{
-        gap: 60px;
+        gap: 70px;
     }
+    .Language_main_div h1{
+        font-size: 70px;
+    }
+    .Language_main_div h2{
+        font-size: 65px;
+    }
+  .Language_main_div div{
+    width: 340px;
+  }
+  .Language_main_div div.second_div{
+    width: 305px;
+  }
   }

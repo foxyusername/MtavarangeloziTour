@@ -17,7 +17,6 @@ let english='English'
 function changeLanguageGeo(){
     setLanguage('Georgian');
     localStorage.setItem('language','Georgian');
-    console.log(language);
 }
 
 function changeLanguageEng(){
