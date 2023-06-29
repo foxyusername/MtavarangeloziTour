@@ -34,7 +34,7 @@ font-family: 'Laila', sans-serif;
 
 .language_button{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 7px;
     display: flex;
     
 }
@@ -97,7 +97,7 @@ transition: 0.3s all;
     margin-right: 20px;
    }
    .Header_text p{
-   font-size: 11px;   
+   font-size: 11px; 
 }
    .language_button button{
  width:80px;
@@ -171,7 +171,7 @@ transition: 0.3s all;
         font-size: 14px;
     }
     .Header_text p{
-        width: 95%;
+        width: 100%;
         margin-bottom: 5px;
         font-family: sans-serif;
         font-size: 14px;
