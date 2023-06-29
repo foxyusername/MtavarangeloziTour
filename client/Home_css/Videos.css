@@ -24,7 +24,7 @@ body{
    -webkit-background-clip: text;
    background-clip: text;
    -webkit-text-fill-color: transparent;
-   font-size: 65px;
+   font-size: 53px;
 }
 
 .Videos_header h1{
@@ -71,7 +71,7 @@ iframe{
         width: 230px;
     }
     .Videos_header_geo h1{
-        font-size: 55px;
+        font-size: 45px;
     }
     .Videos_header{
         display: flex;
