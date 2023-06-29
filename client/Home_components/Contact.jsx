@@ -9,8 +9,8 @@ export default function Contact(){
     <div className="Info_icons">
      <div className="Contact_info">
        <div className="info">
-         <h2>Email: jamaspishvilinika@icloud.com</h2>
-        <h2>Phone: 591-19-15-14</h2>
+         <h2>{localStorage.getItem('language')==="English" ? 'Email: jamaspishvilinika@icloud.com' : 'ფოსტა: jamaspishvilinika@icloud.com'}</h2>
+        <h2>{localStorage.getItem('language')==="English" ? 'Phone: 591-19-15-14' : 'მობილური: 591-19-15-14'}</h2>
       </div>
      </div>
      <div className="Contact_icons">
