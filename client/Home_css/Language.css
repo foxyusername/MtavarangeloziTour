@@ -68,8 +68,8 @@ gap: 35px;
 
 @media only screen and (max-width:399px){
   .Language_main_div {
-    width: 67%;
-    height: 250px;
+    width: 65%;
+    height: 255px;
   }
   #exit_btn{
     font-size:30px;
