@@ -4,7 +4,7 @@ import {faInstagram,faFacebook,faTwitter} from "@fortawesome/free-brands-svg-ico
 
 export default function Contact(){
    return <div className="Contact_main_div">
-    <h1 className="Contact_header">Contact</h1>
+    <h1 className="Contact_header">{localStorage.getItem('language')==="English" ? 'Contact' : "კონტაქტი"}</h1>
    <div className="info_icons_div">
     <div className="Info_icons">
      <div className="Contact_info">
