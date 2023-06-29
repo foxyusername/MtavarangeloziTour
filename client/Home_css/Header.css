@@ -97,12 +97,15 @@ transition: 0.3s all;
     margin-right: 20px;
    }
    .Header_text p{
-   font-size: 11px; 
+   font-size: 12px; 
 }
    .language_button button{
  width:80px;
  height: 25px;
  font-size: 10px;
+}
+.Header_main_div .language_button{
+    margin-top: 10px;
 }
 .Header_main_div{
     height: 200px;
@@ -124,6 +127,9 @@ transition: 0.3s all;
     }
     .Header_main_div{
         height: 200px;
+    }
+    .Header_main_div .language_button{
+        margin-top: 4px;
     }
 }
 
