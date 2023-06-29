@@ -1,6 +1,5 @@
 import "../Home_css/Header.css";
 import { useEffect, useReducer, useRef, useState } from "react";
-import { Ref } from "react";
 export default function Header({getShowLanguage,scroll}){
 
   const [showLanguage,setshowLanguage]=useState(false);
