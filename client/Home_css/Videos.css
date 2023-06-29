@@ -17,14 +17,15 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top:60px;
+    margin-top:30px;
 }
 .Videos_header_geo h1{
    background: linear-gradient(to right,rgb(250, 92, 92), rgb(0, 34, 255));
    -webkit-background-clip: text;
    background-clip: text;
    -webkit-text-fill-color: transparent;
-   font-size: 53px;
+   font-size: 55px;
+   margin-top: 30px;
 }
 
 .Videos_header h1{
