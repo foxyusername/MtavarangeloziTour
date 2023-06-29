@@ -4,7 +4,7 @@ export default function Body(){
     return <div className="Body_main_div">
         <div className="About_div">
         <img src="https://res.cloudinary.com/dldonwgcr/image/upload/v1687765497/%E1%83%92%E1%83%A0%E1%83%94%E1%83%9B%E1%83%98-2_bzn1xq.jpg"/>
-        <p>{localStorage.getItem('language')==="English" ?  'Mtavarangelozi Church, a 16th-century marvel. Built in 1569 by King Levan, it showcases Georgian architectural style with brick and stone. Remarkably, it stands without a foundation, defying the norms of its time. Experience the legacy of the living king and his family within these sacred walls.':"მთავარანგელოზის ეკლესია დაარსდა მეთექვსმეტე საუკუნეში 1569 წელს კახთა მეფე ლევანის მიერ მას ხშირად გრემის მონასტერადაც მოიხენიებენ.მთავარანგელოზის ნაგებობა გვიჩვენებს შუა ხანების საქართველოს არქიტექტურულ სტილს. იგი დგას საძირკველის გარეშე რაც იწვევს დღემდღე გაოცებას ათასობით ტურისტში."}</p>
+        <p>{localStorage.getItem('language')==="English" ?  'Mtavarangelozi Church, a 16th-century marvel. Built in 1569 by King Levan, it showcases Georgian architectural style with brick and stone. Remarkably, it stands without a foundation, defying the norms of its time. Experience the legacy of the living king and his family within these sacred walls.':"მთავარანგელოზის ეკლესია დაარსდა მეთექვსმეტე საუკუნეში 1569 წელს კახთა მეფე ლევანის მიერ მას ხშირად გრემის მონასტერადაც მოიხსენიებენ.მთავარანგელოზის ნაგებობა გვიჩვენებს შუა ხანების საქართველოს არქიტექტურულ სტილს. იგი დგას საძირკველის გარეშე რაც იწვევს დღემდღე გაოცებას ათასობით ტურისტში."}</p>
         </div>
 
         <div className="interier_div">
