@@ -1,6 +1,4 @@
 import "../Home_css/Contact.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faInstagram,faFacebook,faTwitter} from "@fortawesome/free-brands-svg-icons"
 
 export default function Contact(){
    return <div className="Contact_main_div">

@@ -6,7 +6,7 @@ export default function Videos(){
     let height=300;
 
     return <div className="Videos_main_div">
-     <div className="Videos_header"><h1>{localStorage.getItem('language')==="English" ? 'Videos to watch' : 'ვიდეოები'}</h1></div>
+     <div className={localStorage.getItem('language')==='Georgian' ? "Videos_header_geo" : "Videos_header"}><h1>{localStorage.getItem('language')==="English" ? 'Videos to watch' : 'ვიდეოები'}</h1></div>
      
     <div className="Videos_div"> 
         <div className="first_video">

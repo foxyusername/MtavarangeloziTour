@@ -19,6 +19,13 @@ body{
     justify-content: center;
     margin-top:30px;
 }
+.Videos_header_geo h1{
+   background: linear-gradient(to right,rgb(250, 92, 92), rgb(0, 34, 255));
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 65px;
+}
 
 .Videos_header h1{
     font-size: 60px;  
@@ -62,6 +69,9 @@ iframe{
     .Videos_header h1{
         font-size: 56px;
         width: 230px;
+    }
+    .Videos_header_geo h1{
+        font-size: 55px;
     }
     .Videos_header{
         display: flex;
@@ -118,6 +128,10 @@ iframe{
         font-size: 71px;
         width: 350px;
         margin-top: -50px;
+    }
+    .Videos_header_geo h1{
+        font-size: 80px;
+        margin-top: -70px;
     }
     .Videos_main_div div h2{
         font-size: 21px;
@@ -177,6 +191,9 @@ iframe{
 .Videos_header h1{
   margin-top: -50px;
 }
+.Videos_header_geo h1{
+    font-size: 85px;
+}
 
     .Videos_div div{
          margin-top: 50px;
@@ -199,6 +216,9 @@ iframe{
     .Videos_header h1{
         width: 600px;
         font-size: 70px;
+    }
+    .Videos_header_geo h1{
+        font-size: 85px;
     }
 
 }
