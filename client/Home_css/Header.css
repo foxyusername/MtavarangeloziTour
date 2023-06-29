@@ -21,6 +21,10 @@
   font-size: 20px;
 }
 
+.Header_text p{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
 .Header_text h1{
     display: none;
 font-family: 'Laila', sans-serif;
@@ -92,7 +96,7 @@ transition: 0.3s all;
    }
    .Header_text p{
    width:100%;
-    font-size: 11px;
+    font-size: 10px;
    }
    .language_button button{
  width:80px;
@@ -106,7 +110,7 @@ transition: 0.3s all;
 
 @media only screen and (max-width:348px){
     .Header_text p{
-        font-size: 10px;
+        font-size: 6px;
     }
     .Header_main_div{
         height: 200px;
@@ -139,6 +143,9 @@ transition: 0.3s all;
     .Header_main_div{
         height: 250px;
     }
+    .Header_text p{
+        font-size: 15px;
+}
 }
 
 @media only screen and (max-width:485px){
@@ -151,11 +158,13 @@ transition: 0.3s all;
         margin-right: 10px;
     }
     .Header_text{
-        font-size: 12px;
+        font-size: 14px;
     }
     .Header_text p{
         width: 95%;
+        margin-bottom: 5px;
         font-family: sans-serif;
+        font-size: 14px;
     }
     .hireGuide{
         width: 90px;
@@ -194,6 +203,10 @@ transition: 0.3s all;
 }
 .Header_main_div{
     height: 300px;
+}
+.Header_text p{
+   margin-bottom: 10px;
+   font-size: 21px;
 }
 }
 
